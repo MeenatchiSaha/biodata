@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -14,17 +15,17 @@
      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
   </head>
   <body>
 
     <div class="scrollToTop-btn">
       <i class="fas fa-angle-up"></i>
     </div>
-     <header>
+    <!-- nav bar -->
        <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
-          <a class="navbar-brand brand menu" href="#">Meena</a>
+        <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+          <a class="navbar-brand brand menu" href="#"><b>Meena</b></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -32,30 +33,30 @@
           <div class="collapse navbar-collapse navigation" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#main">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#main"><b>Home</b> <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#about"><b>About</b></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#educations
-                ">Education</a>
+                <a class="nav-link" href="#educations"><b>Education</b></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#skill">Skills</a>
+                <a class="nav-link" href="#skill"><b>Skills</b></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#project">Projects</a>
+                <a class="nav-link" href="#project"><b>Projects</b></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact1">Contact</a>
+                <a class="nav-link" href="#contact1"><b>Contact</b></a>
               </li>
              
           </div>
         </nav>
+      </header>
        </div>
       
-    </header>
+    <!-- about -->
 
     <section class="main" id="main">
       <div class="content">
@@ -79,28 +80,28 @@
         <h2 class="section-title">About Me</h2>
       </div>
       <div class="content">
-        <div class="column col-left reveal">
-          <div class="img-card">
-            <img src="images/profile.jpg" alt="">
-          </div>
-        </div>
-        <div class="column col-right reveal">
-          <h2 class="content-title">Hello, I'm Meenatchi</h2>
-          <p class="paragraph-text" style="line-height: 32px;">I am a Fast Learner, Self-driven, quick starter, passionate programmer with a curious mind who enjoys solving a complex and challenging real-world problems. </p> <br>
-            <div class="list reveal"> <ul >
-              <li ><i class="fas fa-award mr-2"></i>Capable of working in a team as well as independently.</li>
-              <li ><i class="fas fa-award mr-2"></i>Have the capacity to complete work in time.</li>
-              <li ><i class="fas fa-award mr-2"></i>Good at work in a budget. </li>
-            </ul></div>
-           
-             
+        
+          <div class="column col-left reveal">
           
-        </div>
+            <div class="img-card img-fluid">
+              <img src="images/p1.jpg" alt="">
+            </div>
+          </div>
+          <div class="column col-right reveal">
+            <h2 class="content-title">Hello, I'm Meenatchi</h2>
+            <p class="paragraph-text" style="line-height: 32px;">I am a Fast Learner, Self-driven, quick starter, passionate programmer with a curious mind who enjoys solving a complex and challenging real-world problems. </p> <br>
+              <div class="list reveal"> <ul >
+                <li ><i class="fas fa-award mr-2"></i>Capable of working in a team as well as independently.</li>
+                <li ><i class="fas fa-award mr-2"></i>Have the capacity to complete work in time.</li>
+                <li ><i class="fas fa-award mr-2"></i>Good at work in a budget. </li>
+              </ul></div>
+          </div>
+    
       </div>
     </section>
 
     
-
+  <!-- education -->
     <section class="educations" id="educations">
       <div class="title reveal">
         <h2 class="section-title">Education</h2>
@@ -145,102 +146,95 @@
         <div class="title reveal mt-4">
          <h1 class="section-title">Skill Details</h1>
         </div>
-        
-        <div class="row">
+        <div class="container">
+          <div class="row">
 
-
-
-          <div class=" col-12 mt-4">
-            <div class="card reveal" >
-              <div class="card-header bg-warning">
-                <h4 style="text-align: center;">Languages and Databases</h4> 
+            <div class=" col-12 mt-4">
+              <div class="card reveal" >
+                <div class="card-header bg-secondary text-white">
+                  <h4 style="text-align: center;">Languages and Databases</h4> 
+                </div>
+                <div class="cadr-body">
+                  <img src="https://www.vectorlogo.zone/logos/python/python-horizontal.svg" alt="python" width="140" height="140">
+                  <img src="https://www.vectorlogo.zone/logos/angular/angular-ar21.svg " alt="anglar" width="160" height="140">
+                  <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" alt="html" width="150" height="150">
+                  
+                  <img src="https://www.vectorlogo.zone/logos/mysql/mysql-horizontal.svg" alt="mysql" width="170" height="150">
+                </div>
               </div>
-              <div class="cadr-body">
-                <img src="https://www.vectorlogo.zone/logos/python/python-horizontal.svg" alt="python" width="170" height="150">
-                <img src="https://www.vectorlogo.zone/logos/angular/angular-ar21.svg " alt="anglar" width="200" height="150">
-                <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" alt="html" width="180" height="150">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="css" width="180" height="130">
-                <img src="https://www.vectorlogo.zone/logos/mysql/mysql-horizontal.svg" alt="mysql" width="200" height="150">
-              </div>
+                </div>
+
+                <div class=" col-12 mt-4 ">
+                  <div class="card reveal" >
+                    <div class="card-header bg-secondary text-white">
+                      <h4 style="text-align: center;">Frameworks</h4> 
+                    </div>
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner" style="text-align: center;">
+                        <div class="carousel-item active">
+                          <img src="https://www.vectorlogo.zone/logos/djangoproject/djangoproject-ar21.svg" alt="django"width="180" height="130"> 
+                         
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-horizontal.svg" alt="nodejs" width="180" height="130"> 
+                          
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-ar21.svg" alt="bootstrap" width="180" height="130"> 
+                          
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                </div>
               
-              </div>
-
-
-
-           <div class=" col-12 mt-4 ">
-             <div class="card reveal" >
-               <div class="card-header bg-warning">
-                 <h4 style="text-align: center;">Frameworks</h4> 
-               </div>
-               <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                 <div class="carousel-inner" style="text-align: center;">
-                   <div class="carousel-item active">
-                     <img src="https://www.vectorlogo.zone/logos/djangoproject/djangoproject-ar21.svg" alt="django"width="180" height="130"> 
-                    
-                   </div>
-                   <div class="carousel-item">
-                     <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-horizontal.svg" alt="nodejs" width="180" height="130"> 
-                     
-                   </div>
-                   <div class="carousel-item">
-                     <img src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-ar21.svg" alt="bootstrap" width="180" height="130"> 
-                     
-                   </div>
-                 </div>
-               </div>
-               </div>
-
-
-
-               <div class="col-12 mt-4">
-                <div class="card reveal" >
-                  <div class="card-header bg-warning">
-                    <h4 style="text-align: center;">Others</h4> 
-                  </div>
-                  <div class="card-body">
-                    <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-ar21.svg" alt="amazon" width="180" height="130">
-                    <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-ar21.svg" alt="azure" width="180" height="130">
-                  </div>
-                                    </div>
-     
-
-        
-
-            
+                <div class="col-12 mt-4">
+                  <div class="card reveal" >
+                    <div class="card-header bg-secondary text-white">
+                      <h4 style="text-align: center;">Others</h4> 
+                    </div>
+                    <div class="card-body">
+                      <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-ar21.svg" alt="amazon" width="180" height="130">
+                      <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-ar21.svg" alt="azure" width="180" height="130">
+                    </div>
+                  </div></div> 
+          </div>
         </div>
-      </div>
+     
     </section>
-     <!-- end skill bar--> 
+     <!-- project bar--> 
 
      <section class="project" id="project">
       <div class="title reveal">
         <h2 class="section-title">Curricular Activities</h2>
       </div>
-      <div class="content">
-        <div class="row">
-          <div class="card reveal" >
-            <div class="card-header bg-warning">
-              <h4 style="text-align: center;">International Journal Publications</h4> 
-            </div>
 
-          <marquee behavior="scroll"direction="up" scrollamount="2" scrolldelay="5" onmouseover="this.stop()" onmouseout="this.start()" height="178">
-            <ul style="text-align: center;">
-                                 
-                
-                 <li>
-                  Paper entitled <b>"Task Scheduling strategies Based EARH System in Virtual Cloud" </b>published IJCA Journal Vol4,Issues 4.
-                 </li><br>
-                    
-                  <li>Paper entitled <b>"Ownership Protection of Shape Datasets with Distance Based Preservation" </b>published IJETR Vol3,Issue 6.</li>
-                  <br>
+      <div class="container"> 
+        
+          <div class="row">
+            <div class="card reveal" >
+              <div class="card-header bg-info">
+                <h4 style="text-align: center;">International Journal Publications</h4> 
+              </div>
+  
+            <marquee behavior="scroll"direction="up" scrollamount="2" scrolldelay="5" onmouseover="this.stop()" onmouseout="this.start()" height="178">
+              <ul style="text-align: center;">
+                                   
                   
-                  
-                 <li> Paper entitled <b>"Power Saving Network Protocol System Using Hyper Quorum System"</b> published IJETR Vol3,Issue 6.</li>
+                   <li>
+                    Paper entitled <b>"Task Scheduling strategies Based EARH System in Virtual Cloud" </b>published IJCA Journal Vol4,Issues 4.
+                   </li><br>
                        
-                 </ul>
-            </marquee>
-          </div>
-
+                   <li> Paper entitled <b>"Power Saving Network Protocol System Using Hyper Quorum System"</b> published IJETR Vol3,Issue 6.</li>
+                   <br>
+                    <li>Paper entitled <b>"Ownership Protection of Shape Datasets with Distance Based Preservation" </b>published IJETR Vol3,Issue 6.</li>
+                    <br>
+                 
+                   </ul>
+              </marquee>
+          
+      </div>
+      
 
           <!-- Button trigger modal -->
           <div class="modelBtn" style="text-align: center;">
@@ -259,21 +253,16 @@
         </button>
       </div>
       <div class="modal-body">
-        
-          
-
+    
         <marquee behavior="scroll"direction="up" scrollamount="2" scrolldelay="5" onmouseover="this.stop()" onmouseout="this.start()" height="178">
           <ul class="list-group list-group-flush" style="text-align: center;">
-                               
-              
+           
                <li>
                 Participated in the <b>"National Conference on Resent Trends in Communication,Computation and Control"</b> in Christian College of Engineering and Technology.
                </li><br><br>
                   
                 <li>Participated in the <b>"National Conference on Resent Advances and Security Trends in Computing Methodologies" </b>in N.S.N College of Engineering and Technology.</li><br><br>
-                
-                
-                
+              
                <li> Participated in the <b>"National Level Technical symposium CYBERNERVES'12"</b> in Bharathiyar College of Engineering and Technology.</li>
                      
                </ul>
@@ -287,22 +276,11 @@
     </div>
   </div>
 </div>
-
-
-          
-            
-            
-
+ 
       </div>
      </section>
-
-
-
-
-
-    
-
-    <section class="contact" id="contact1">
+      <!-- contact -->
+    <section class="contact bg-transparent" id="contact1">
       <div class="title reveal">
         <h2 class="section-title">Contact Me</h2>
       </div>
@@ -324,7 +302,7 @@
             </div>
             <div class="info">
               <h3>Phone</h3>
-              <span>9765432181</span>
+              <span>90000000000</span>
             </div>
           </div>
           <div class="card reveal">
@@ -341,7 +319,7 @@
     </section>
 
     <footer class="footer">
-      <span class="footer-title">Page End</span>
+     
       <p>Copyright @2021. All Rights Reserved.</p>
     </footer>
 
@@ -355,3 +333,8 @@
 
   </body>
 </html>
+
+            
+            
+
+    

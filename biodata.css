@@ -1,11 +1,12 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Besley:wght@500&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Besley', serif;
+  font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -19,7 +20,7 @@ section{
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(images/bg3.jpg)no-repeat;
+  background: url(images/bg.jpg)no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -105,53 +106,6 @@ section{
   margin-right: 30px;
 }
 
-header{
-  z-index: 999;
-  position: fixed;
-  background: rgba(255, 255, 255, 0.1);
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 15px 200px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  transition: 0.5s ease;
-}
-
-header.sticky{
-  background: #3a6cf4;
-  padding: 10px 200px;
-}
-
-header .brand{
-  color: #fff;
-  font-size: 1.8em;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-header .navigation{
-  position: relative;
-}
-
-header .navigation a{
-  color: #fff;
-  font-size: 1em;
-  font-weight: 500;
-  text-decoration: none;
-  margin-left: 30px;
-}
-
-header .navigation a:hover{
-  color: #3a6cf4;
-}
-
-header.sticky .navigation a:hover{
-  color: #000;
-}
-
 body{
   min-height: 110vh;
 }
@@ -199,6 +153,7 @@ body{
   position: relative;
   width: 100%;
   display: flex;
+ 
   justify-content: space-between;
   margin-top: 20px;
 }
@@ -210,12 +165,12 @@ body{
 
 .about .content .col-right{
   position: relative;
-  width: 50%;
+  width: 45%;
 }
 
 .about .content .col-left .img-card{
   position: relative;
-  width: 100%;
+  width:100%;
   min-height: 450px;
 }
 
@@ -225,7 +180,7 @@ body{
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  
   border-radius: 10px;
 }
 
@@ -246,19 +201,6 @@ body{
   
   font-size: 1em;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -326,15 +268,11 @@ body{
 
 #contact1
 {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
+
  
   
-  background: url(images/home.jpg)no-repeat;
-  background-size: cover;
-  z-index: 1;
-  background-attachment: fixed;
+  background: linear-gradient(to left,whitesmoke,rgb(235, 231, 232) 70% );
+ 
   
 }
 
